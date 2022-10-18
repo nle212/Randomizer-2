@@ -20,6 +20,7 @@ let randomIndex;
 function setup(){
 createCanvas(600,600);
 background(200);
+fill(random(255), random(255), random(255));
 textSize(50);
 text("Click to protect", 100,150); 
 text("the humanity!", 100,200);
